@@ -132,40 +132,30 @@ main {
     height: 42vh;
 }
 
-.sec-2 {
+.sec-1-2 {
     margin-left: 1%;
-    width: 24%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
 }
 
-.sec-3 {
-    margin-left: 2%;
-    width: 24%;
-    margin-top: 2.75%;
-}
-
-.circulo {
-    display: block;
+.circulo-1 {
     font-size: 13px;
-    margin-bottom: 5px;
     color: #000;
 }
 
-.destaque {
-    display: flex;
-    margin-left: 3.5%;
-    height: 15px;
-    width: 14%;
-    margin-top: -2.3vh;
-    margin-bottom: 2vh;
+.circulo-2 {
+  font-size: 13px;
+  color: #000;
 }
 
-.destaque-2 {
-    display: flex;
-    margin-left: 7.5%;
-    height: 15px;
-    width: 20%;
-    margin-top: -2.3vh;
-    margin-bottom: 2vh;
+.circle {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  text-align: left;
+  margin-bottom: 3vh;
 }
 
 #materia-1 {
@@ -203,19 +193,6 @@ main {
 .main-org-2 {
     width: 100%;
     display: flex;
-}
-
-.sec-4 {
-    margin-left: 51%;
-    margin-top: -46%;
-    width: 24%;
-}
-
-.sec-5 {
-    margin-top: -15%;
-    width: 24%;
-    margin-top: -46%;
-    margin-left: 3%;
 }
 
 .data {
@@ -281,7 +258,7 @@ main {
 /*FOOTER*/
 
 footer {
-    background-color: rgb(244, 244, 9);
+    background-color:#f7be21 #9e8100 #000;
     position: relative;
     overflow-y: hidden;
     display: grid 'footer';
