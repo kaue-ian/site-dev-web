@@ -89,26 +89,14 @@ h2 {
     text-align: center;
 }
 
-@media (max-width: 1300px) {
-    .links {
-        display: none;
-    }
-}
-
 /*FIM*/
 
 /*MAIN*/
 
 main {
     width: 73.62%;
-    margin-top: 19vh;
+    margin-top: 14vh;
     margin-left: 13.15%;
-}
-
-@media (max-width: 1200px) {
-    main {
-        margin-top: 6%;
-    }
 }
 
 @media (max-width: 1000px) {
@@ -213,7 +201,7 @@ main {
 
 .titulo {
     height: 4vh; 
-    width: 8.5%;
+    width: 90px;
     background-color: #000; 
 }
 
@@ -253,192 +241,52 @@ main {
     margin-top: 4vh;
 }
 
-/*FIM*/
+.row-h {
+  width: 1px; 
+  height: 100vh; 
+  background-color: rgb(224, 224, 224);
+}
 
-/*FOOTER*/
-
-footer {
-    background-color:#f7be21 #9e8100 #000;
-    position: relative;
-    overflow-y: hidden;
-    display: grid 'footer';
-    margin-top: 5vh;
-    min-height: 350px;
-    padding: 3rem 1rem;
-    grid-row-end: auto;
-    border-top: 3px solid #000;
+@media (max-width: 1521px) {
+  .links-2 {
+      display: none;
   }
   
-  .container-2 {
-    max-width: 1299px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .col {
-    min-width: 250px;
-    color:#000;
-    font-family: poppins;
-    padding:0 2rem;
-  }
-  
-  .col .logo {
-    width: 100px;
-    margin-bottom:25px;
-  }
-  
-  .col h3 {
-    font-size: 30px;
-    color:#000;
-    margin-bottom: 20px;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .col h3::after {
-    content: '';
-    height:3px;
-    width:0px;
-    background-color: #000;
-    position: absolute;
-    bottom: 0;
-    left:0;
-    transition: 0.3s ease;
-  
-  }
-  
-  .col h3:hover::after {
-    width:30px
-  }
-  
-  .col .social a i {
-    color:#000;
-    margin-top:2rem;
-    margin-right: 5px;
-    transition: 0.3s ease;
-  }
-  
-  .col .social a i:hover {
-    transform: scale(1.5);
-    filter:grayscale(25);
-  }
-  
-  .col .links a {
-    display: block;
-    text-decoration: none;
-    color:#000;
-    margin-bottom: 5px;
-    position: relative;
-    transition: 0.3s ease;
-  }
-  
-  .col .links a::before {
-    content:'';
-    height: 16px;
-    width:3px;
-    position: absolute;
-    top:5px;
-    left:-10px;
-    background-color: #000;
-    transition: 0.5s ease;
-    opacity: 0;
-  }
-  
-  .col .links a:hover::before {
-    opacity: 1;
-  }
-  
-  .col .links a:hover {
-    transform: translateX(-8px);
-    color:#000;
-  }
-  
-  .col .contact-details {
-    display: inline-flex;
-    justify-content: space-between;
-  }
-  
-  .col .contact-details i {
-    margin-right:15px;
-  }
-  
-  .row .form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:2rem 0;
-  }
-  
-  .row .form input {
-    background-color: #1a1c20ff;
-    border:0;
-    outline:none;
-    padding:14px 20px;
-    border-radius: 6px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  
-  .col#contact {
-    margin-top: -2%;
-  }
-  
-  .form button {
-    padding:14px 20px;
-    border:0;
-    border-radius: 6px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    background-color: #000;
-  }
-  
-  i .fa-paper-plane {
-    transition: transform .3s ease;
-  }
-  
-  p#copy {
+  main {
     margin-top: 3vh;
-    font-size: 12px;
   }
-  
-  p#rea {
-    margin-top: -5vh;
+}
+
+@media (max-width: 1060px) {
+  .main-org {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
-  
-  .i fa-paper-plane:hover {
-    transform: scale(1.1);
+  .row-h {
+    display: none;
   }
-  @media (max-width:1299px)
-  {
-  .row{
+
+  .sec-1 {
+    width: 100%;
+    height: 20vh;
+  }
+
+  .sec-1 img {
+    height: 20vh;
+  }
+
+  .sec-1-2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
   }
   
-  .col{
-    width: 100%;
-    text-align: left;
-    margin-bottom: 25px;
+  .text-size {
+    display: none;
   }
-  }
-  
-  @media (max-width:768px)
-  {
-  .row {
-    flex-direction: column;
-  }
-  
-  .col {
-    width: 100%;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-  }
+}
+
+
+/*FIM*/
