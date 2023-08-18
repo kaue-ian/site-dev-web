@@ -330,13 +330,18 @@ main {
 
   .zoom {
     width: 100%; 
-    height: 24vh;
+    height: 30vh;
     overflow: hidden;
+  }
+
+  .zoom2 {
+    height: 42vh;
   }
 
 .zoom:hover img{
     transform: scale(1.1);
     background: none;
+    transition: 0.5s ease-out;
 }
 
 /*FIM*/
