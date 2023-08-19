@@ -303,7 +303,7 @@ main {
   }
   
   .sec-7 {
-      width: 50%;
+      width: 45%;
       grid-column: 2;
       grid-row: 1;
   }
@@ -326,6 +326,16 @@ main {
       .sec {
         width: 100%;
       }
+
+      h1 {
+        font-size: 35px;
+      }
+  }
+
+  @media (max-width: 400px) {
+    .h1-2 {
+        font-size: 35px;
+    }
   }
 
   .zoom {
@@ -344,13 +354,124 @@ main {
     transition: 0.5s ease-out;
 }
 
+.bio-materia-1:hover {
+    cursor: pointer;
+}
+
+.bio-mat-seguintes:hover {
+    cursor: default;
+}
+.materias-seguintes:hover {
+    cursor: pointer;
+}
+
+.sec img:hover {
+    cursor: pointer;
+}
+
 /*FIM*/
 
-/*FOOTER*/
+/*PÁG 2*/
 
-footer {
+.news-pag-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 77%;
+    
+}
+
+.zoom-2 {
+    height: 35vh;
+}
+
+.sec-9 {
+    margin-top: 4vh;
+    margin-right: 3vh;
+}
+
+.section {
+    width: 30%;
+    height: 80vh;
+}
+
+.sec-11 {
+    margin-left: 3%;
+}
+
+.newslatter {
+    margin-top: -0.5vh;
+    background-color: #FFE531;
+    width: 20%;
+    color: #000;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 74vh;
+    margin-right: -100%;
+    margin-left: 5%;
+}
+
+.ttl-2 {
+    margin-top: -9.7vh;
+    margin-left: 1vh;
+}
+
+.ass {
+    text-align: justify;
+}
+
+.p-news {
+    font-size: 30px;
+    margin-bottom: 3vh;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.h2-n {
+    text-align: center;
+    font-size: 20px;
+}
+.section-2 {
+    flex-wrap: wrap;
+    display: flex;
     width: 100%;
-    height: 50vh;
-    background-color: #000;
-    margin-top: 7vh;
+}
+
+.section-2{
+    width: 100%;
+      height: auto;
+      flex-wrap: wrap;
+      display: flex;
+      margin:  0 auto;
+}
+
+.sec-13 {
+    width: 22.3%;
+    margin-left: 3%;
+    margin-top: 4vh;
+}
+
+.sec-14 {
+    width: 22.3%;
+}
+
+.sec-15 {
+    width: 22.3%;
+    margin-right: 3%;
+}
+
+.div-color {
+    margin: 5vh 0;
+    background-color: #FFE531;
+    padding: 2vh 0 7vh;
+}
+
+.div-main {
+    width: 73.62%;
+    margin-left: 13.15%;
+}
+.h2-nac {
+    font-size: 18px;
+    text-align: center;
+    margin-left: -90%;
 }
