@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+<main>
+    <div class="page">
+        <div class="formLogin">
+            <h1>Cadastro</h1>
+            <p>Informe suas informações nos campos abaixo:</p>
+            <label class="email">Nome:</label>
+            <input class="email" id="nome" name="nome" type="text">
+
+            <label class="password">Senha:</label>
+            <input class="password" id="senha" name="senha" type="password">
+
+            <label class="password">Confirmar Senha:</label>
+            <input class="password" id="confirmSenha" name="ConfirmSenha" type="password">
+
+            <br>
+
+            <input type="button" name="submit" id="submit" class="btn" value="Cadastrar" onclick="submit('cadastro')">
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Senhas diferentes</p>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="main.js"></script>
+
+</html>
