@@ -41,7 +41,7 @@ function cadastro(nome, senha, confirmSenha) {
         dados.push({nome: nome, senha: senha}); //insere um novo obejeto no array com as informções inseridas
         localStorage.usuarios = JSON.stringify(dados); //Atualiza a localstorage com o novo array
         console.log("Cadastrado com Sucesso!");
-        document.location.href = "index.html";
+        document.location.href = "principal.html";
     } else {
         modal.style.display = "block";
         console.log("Senhas não são iguais!");
