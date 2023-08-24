@@ -1,9 +1,12 @@
 @charset "UTF-8";
 
 :root {
-    color: rgb(244, 244, 9);
-    font-family: 'Lobster', cursive;
-    font-family: 'Roboto', sans-serif;
+    --ts-color-1: #FFE531;
+    --ts-color-2: #000;
+    --ts-color-3: #fff;
+    --ts-color-4: rgb(224, 224, 224);
+    --ts-font-1: 'Lobster', cursive;
+    --ts-font-2: 'Times New Roman', Times, serif;
 }
 
 * {
@@ -31,6 +34,24 @@ body {
     ;
 }
 
+.branco input {
+    width: 100%;
+    height: 100%;
+}
+
+.branco ::placeholder {
+    text-align: center;
+}
+
+.msg ::placeholder {
+    text-align: center;
+}
+
+.msg input {
+    width: 100%;
+    height: 100%;
+}
+
 /*HEADER*/
 
 header {
@@ -43,7 +64,7 @@ nav .logo {
 }
 
 h1 {
-    color: #000;
+    color: var(--ts-color-2);
     text-align: center;
     margin-top: 4vh;
     font-size: 70px;
@@ -51,7 +72,7 @@ h1 {
 }
 
 h2 {
-    color: #000;
+    color: var(--ts-color-2);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-left: 12vw;
@@ -65,14 +86,14 @@ h2 {
 .lista {
     text-align: center;
     display: inline-block;
-    color: #000;
+    color: var(--ts-color-2);
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     padding: 6px;
 }
 
 .lista:hover {
-    background-color: rgb(244, 244, 9);
+    background-color: var(--ts-color-1);
 }
 
 .links-3 {
@@ -85,8 +106,8 @@ h2 {
 }
 
 .links-2 {
-    border-top: 3px solid #000;
-    border-bottom: 3px solid #000;
+    border-top: 3px solid var(--ts-color-2);
+    border-bottom: 3px solid var(--ts-color-2);
     text-align: center;
 }
 
@@ -95,7 +116,7 @@ h2 {
 /*MAIN*/
 
 header {
-    background-color: #fff;
+    background-color: var(--ts-color-3);
 }
 
 main {
@@ -136,7 +157,7 @@ main {
 
 .circulo-1 {
     font-size: 13px;
-    color: #000;
+    color: var(--ts-color-2);
 }
 
 .sec-2 {
@@ -145,7 +166,7 @@ main {
 
 .circulo-2 {
     font-size: 13px;
-    color: #000;
+    color: var(--ts-color-2);
 }
 
 .circle {
@@ -160,12 +181,12 @@ main {
     text-align: center;
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
-    color: #000;
+    color: var(--ts-color-2);
 }
 
 .bio-materia-1 {
     text-align: justify;
-    color: #000;
+    color: var(--ts-color-2);
     font-family: 'Roboto', sans-serif;
     padding-left: 20px;
     padding-right: 40px;
@@ -173,7 +194,7 @@ main {
 }
 
 .materias-seguintes {
-    color: #000;
+    color: var(--ts-color-2);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 21px;
@@ -181,7 +202,7 @@ main {
 }
 
 .bio-mat-seguintes {
-    color: #000;
+    color: var(--ts-color-2);
     font-size: 15px;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
@@ -194,7 +215,7 @@ main {
 }
 
 .data {
-    color: #000;
+    color: var(--ts-color-2);
     font-size: 13px;
     margin-top: 1vh;
     margin-left: 3%;
@@ -202,7 +223,7 @@ main {
 }
 
 .data-2 {
-    color: #000;
+    color: var(--ts-color-2);
     font-size: 18px;
     margin-top: 3vh;
     margin-left: 3%;
@@ -212,13 +233,13 @@ main {
 .titulo {
     height: 4vh;
     width: 90px;
-    background-color: #000;
+    background-color: var(--ts-color-2);
     align-items: center;
     justify-content: center;
 }
 
 .titulo p {
-    color: #fff;
+    color: var(--ts-color-3);
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     padding: 5px;
@@ -250,7 +271,7 @@ main {
 .row-h {
     width: 1px;
     height: auto;
-    background-color: rgb(224, 224, 224);
+    background-color: var(--ts-color-4);
 }
 
 @media (max-width: 1521px) {
@@ -428,9 +449,9 @@ main {
 
 .newslatter {
     margin-top: -0.5vh;
-    background-color: #FFE531;
+    background-color: var(--ts-color-1);
     width: 20%;
-    color: #000;
+    color: var(--ts-color-2);
     padding-right: 30px;
     padding-left: 30px;
     height: 55vh;
@@ -491,7 +512,7 @@ main {
 
 .div-color {
     margin: 5vh 0;
-    background-color: #FFE531;
+    background-color: var(--ts-color-1);
     padding: 2vh 0 7vh;
 }
 
@@ -522,7 +543,7 @@ main {
 .row-2 {
     width: 73.7%;
     height: 1vh;
-    background-color: #FFE531;
+    background-color: var(--ts-color-1);
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
@@ -673,11 +694,11 @@ main {
 .branco {
     width: 100%;
     height: 5vh;
-    background-color: #fff;
+    background-color: var(--ts-color-3);
     margin-top: 3vh;
     text-align: center;
     font-size: 13px;
-    color: #000;
+    color: var(--ts-color-2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -686,11 +707,11 @@ main {
 .msg {
     width: 100%;
     height: 12vh;
-    background-color: #000;
+    background-color: var(--ts-color-2);
     margin-top: 5vh;
     text-align: center;
     font-size: 14px;
-    color: #fff;
+    color: var(--ts-color-3);
     display: flex;
     align-items: center;
 }
@@ -700,7 +721,7 @@ main {
 .row-3 {
     width: 100%;
     height: 1vh;
-    background-color: #FFE531;
+    background-color: var(--ts-color-1);
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
@@ -708,7 +729,7 @@ main {
 .row-4 {
     width: 98%;
     height: 1vh;
-    background-color: #FFE531;
+    background-color: var(--ts-color-1);
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
@@ -729,14 +750,14 @@ main {
     width: 73%;
     margin-left: 13.5%;
     height: 1vh;
-    background-color: #FFE531;
+    background-color: var(--ts-color-1);
     margin-top: 10vh;
     margin-bottom: 5vh;
 }
 .titulo-2 {
     height: 3.5vh;
     width: 150px;
-    background-color: #000;
+    background-color: var(--ts-color-2);
     align-items: center;
     justify-content: center;
 }
@@ -783,7 +804,7 @@ main {
 }
 
 .p-ttl {
-    color: #000;
+    color: var(--ts-color-2);
     font-size: 10px;
 }
 
@@ -813,7 +834,7 @@ main {
 .p-img-info {
     width: 50%;
     margin-left: 7%;
-    color: #000;
+    color: var(--ts-color-2);
     text-align: justify;
 }
 
@@ -827,7 +848,7 @@ main {
 }
 
 .p-news-ru {
-    color: #000;
+    color: var(--ts-color-2);
     font-size: 18px;
     margin-bottom: 3vh;
     text-align: justify;
@@ -838,7 +859,7 @@ main {
 }
 
 .h3-ru {
-    color: #000;
+    color: var(--ts-color-2);
     margin-bottom: 1vh;
 }
 
