@@ -27,6 +27,7 @@ nav {
   height: 7vh;
   width: 100%;
   border-bottom: 3px solid #000;
+  box-shadow: #00000042 0px 8px 16px 0px;
 }
 
 nav li:hover {
@@ -69,14 +70,14 @@ nav li a:hover {
   }
   .nav-list {
     position: absolute;
-    top: 7vh;
+    top: 6vh;
     right: 0;
     width: 50vw;
     height: 100%;
     background: rgb(244, 244, 9);
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
   }

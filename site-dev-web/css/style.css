@@ -417,6 +417,15 @@ main {
     margin-bottom: -22vh;
 }
 
+.page .voltar img {
+    height: 30px;
+    width: 30px;
+}
+
+.log-cad {
+    margin-left: 10%;
+}
+
 .newslatter {
     margin-top: -0.5vh;
     background-color: #FFE531;
@@ -845,5 +854,3 @@ main {
 .p-news-ru-4 {
     width: 50%;
 }
-
-/*box-shadow: #535353 40px  40px 100px 10px;*/
