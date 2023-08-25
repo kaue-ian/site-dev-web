@@ -34,6 +34,32 @@ nav li:hover {
   transform: scale(1.1);
 }
 
+.linhaanima1 {
+  background-color: black;
+  width: 50px;
+  height: 3px;
+  animation: linhaa1 3s infinite;
+  animation-direction: alternate;
+}
+
+.linha {
+  margin-bottom: -5vh;
+  margin-top: 5vh;
+}
+
+@keyframes linhaa1 {
+  0% {
+    margin-left: 0%;
+    background-color: rgb(146, 144, 2);
+  }
+
+  100% {
+    margin-left: calc(100% - 50px);
+    background-color: rgb(244, 191, 0);
+  }
+
+}
+
 nav li a:hover {
   text-decoration: underline;
   color: rgb(171, 12, 12);
